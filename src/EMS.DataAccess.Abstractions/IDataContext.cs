@@ -1,4 +1,4 @@
-namespace EMS.Contracts.DataAccess
+namespace EMS.DataAccess.Abstractions
 {
     public interface IDataContext : IDataSource, IDataTarget
     {

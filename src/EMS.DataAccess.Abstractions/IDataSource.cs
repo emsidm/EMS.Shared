@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace EMS.Contracts.DataAccess
+namespace EMS.DataAccess.Abstractions
 {
     public interface IDataSource : IDisposable
     {

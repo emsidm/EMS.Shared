@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 
-namespace EMS.Contracts.DataAccess
+namespace EMS.DataAccess.Abstractions
 {
     public interface IDataTarget : IDisposable
     {
