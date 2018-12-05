@@ -13,7 +13,7 @@ before_build:
 build_script:
 - appveyor-retry dotnet restore -v Minimal
 - dotnet -d build -c %CONFIGURATION%
-- dotnet -d pack -c %CONFIGURATION%
+- dotnet -d pack -c %CONFIGURATION% /p:Version=%APPVEYOR_BUILD_VERSION%
 test: off
 artifacts:
 - path: src\EMS.Web.Abstractions\bin\Release\*.nupkg
